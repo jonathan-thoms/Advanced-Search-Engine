@@ -1,0 +1,45 @@
+*{
+    border:solid 1px red ;
+}
+
+html, body{
+    height:100%
+}
+
+#header{
+    display: flex;
+    justify-content: end;
+    
+
+}
+
+#menu{
+    display: flex;
+    width:25%;
+    justify-content: space-around;
+
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-bottom: 3%;
+    justify-content: center;
+}
+
+.search{
+    font-size: 330%;
+}
+
+.image{
+    font-size: 200%;
+}
+
+#container{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin-top: 30%;
+    width:50%
+    
+}

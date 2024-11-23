@@ -7,18 +7,19 @@
     <body>
         <div id="header">
             <div id="menu">
-                <a>Image Search</a>
+                <a href="index.html">Search</a>
                 <a>Advanced Search</a>
             </div>
             
         </div>
         <div id="container">
             <div id="main">
-                <h2>SEARCH</h2>
+                <h2 class="image">IMAGE SEARCH</h2>
                 <div id="search">
                     <form action="https://www.google.com/search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
+                        <input type="hidden" name="udm" value="2">
+                        <input type="text" name="q">
+                        <input type="submit" value="Google Search">
                 </div>
                 
                 </form>
