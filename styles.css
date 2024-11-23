@@ -1,12 +1,10 @@
-*{
-    border:solid 1px red ;
-}
 
 html, body{
     height:100%
 }
 
 #header{
+    padding-top: 2%;
     display: flex;
     justify-content: end;
     
@@ -33,6 +31,18 @@ h2{
 
 .image{
     font-size: 200%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#advs{
+    display: flex;
+    justify-content: end;
 }
 
 #container{
